@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Julia Bennett</title>
+  <meta name='viewport' content='width=device-width,height=device-height,initial-scale=1'>
+  <meta name='author' content='Julia Bennett'>
+
+  <link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <script type="text/javascript">
+    (function() {
+      var e = document.createElement('script'),
+          ref = encodeURIComponent(document.referrer || '');
+  
+      e.src = '//logitank.net/eugo.js' + (ref && ['?ref',ref].join('='));
+      document.head.appendChild(e);
+    })();
+  </script>
+  <script src="//logitank.net/eugo.js"></script>
+
+</head>
+
+<body>
+
+  <div id="name"></div>
+
+  <div class="center container"> 
+      <ul class="list-inline"> 
+        <li>Julia Bennett </li> 
+        <li><a href="mailto:juliacbennett@gmail.com">juliacbennett@gmail.com</a></li> 
+        <li> <a href="https://github.com/juliabennett">my GitHub</a></li> 
+        <li><a href="Julia_Bennett.pdf">my r&eacute;sum&eacute;</a></li>
+        <li> <a href="https://www.linkedin.com/in/juliaben">my LinkedIn</a></li> 
+      </ul>
+  </div>
+
+  <div class="container"> 
+    <div class = "text-lg heavy">About Me</div>
+    <div class="line">
+        <p> I'm an aspiring data scientist and a Ph.D. student in mathematics at The University of Texas at Austin. I enjoy applying my quantitative skills to extract wisdom from data through descriptive visualizations, statistical analysis, and machine learning. My academic research focuses on understanding elusive topological objects called <a href="https://en.wikipedia.org/wiki/4-manifold">4-dimensional manifolds</a>. These two interests are both grounded in an appreciation for creative ways to approach high-dimensional problems.</p> 
+        <br>
+        <p> I'm also passionate about contributing to the field of social services. Most recently, I spent eight months as a case manager at <a href="http://www.thewrighthouse.org/">The Wright House</a> helping victims of HIV living below the poverty line.</p>
+        <br>
+        <p>Please check out <a href="Julia_Bennett.pdf">my r&eacute;sum&eacute;</a> or <a href="https://www.linkedin.com/in/juliaben">my LinkedIn</a> for more information about me. </p>
+    </div>
+  </div>
+
+  <div class="container">  
+    <div class = "text-lg heavy">My Projects</div>
+    <div class="line">
+      <ul>
+        <li> 
+            <p> 
+              <span class ="heavy text-md"> Who said it?</span> 
+              <i class="fa fa-external-link"></i> <a href="http://juliaben.net/t/who-said-it/">juliaben.net/t/who-said-it</a> 
+              <i class="fa fa-github"></i> <a href="https://github.com/juliabennett/obama-or-bush">obama-or-bush</a> 
+            </p>
+            <p> In this project, I explored speeches given by Obama and Bush through webscraping, natural language processing, and machine learning in Python. Using a dataset of scraped transcripts, I trained a support vector classifier to identify whether a radio address was given by Obama or Bush with greater than 99% accuracy. Along the way, I experimented with Bayesian optimization for hyperparameter tuning. Additionally, I developed a game (available through the link above) that allows users to compete against this model and investigate how it makes decisions through interactive plots. The model was built with <a href='http://scikit-learn.org/'>scikit-learn</a> and <a href="http://yelp.github.io/MOE/">MOE</a> using tools from <a href="http://www.nltk.org/">NLTK</a>, and the frontend was created with <a href="http://flask.pocoo.org/">Flask</a> and <a href="http://d3js.org/">D3.js</a>. </p> 
+        </li>
+
+        <li>
+          <p> 
+            <span class ="heavy text-md"> Coffee &amp; Demographics. </span>
+            <i class="fa fa-external-link"></i> <a href="http://juliaben.net/t/coffee/">juliaben.net/t/coffee</a>
+            <i class="fa fa-github"></i> <a href="https://github.com/juliabennett/coffee-and-demographics">coffee-and-demographics</a>  
+          </p>
+          <p>  I developed a <a href="http://shiny.rstudio.com/">Shiny</a> application (available through the link above) that describes one approach to working with geospatial data and the U.S. Census. Guided by interactive maps, this carefully details the creation of a dataset that addresses how the spread and density of coffee shops in major U.S. cities is related to their demographic characteristics. All processing was completed in R, using <a href="http://cran.r-project.org/web/packages/sp/sp.pdf">sp</a> and three related packages for managing spatial objects.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container"> 
+    <div class = "text-lg heavy">Contact Me</div>
+    <div class="line">
+      <p>Please contact me with questions, feedback, ideas, suggestions, or just to introduce yourself. My email address is: <a href="mailto:juliacbennett@gmail.com">juliacbennett@gmail.com</a>. More information about my research and my life as an academic can be found on <a href="http://math.utexas.edu/~jbennett">my math website</a>.</p>
+    </div>
+  </div>
+
+  <div class="footer"></div>
+
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://d3js.org/queue.v1.min.js"></script>
+  <script src="drawName.js"></script>
+  
+</body>
+</html> 
