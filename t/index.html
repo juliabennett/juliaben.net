@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Julia Bennett</title>
+  <meta name='viewport' content='width=device-width,height=device-height,initial-scale=1'>
+  <meta name='author' content='Julia Bennett'>
+
+  <link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <script type="text/javascript">
+    document._EUGO = '9447aed4d9169a42f015';
+    document.head.appendChild(function() {
+      var s = document.createElement('script');
+      s.src = 'https://eugo.ws/eugo.js';
+      s.async = 1;
+      return s;
+    }());
+  </script>
+
+</head>
+
+<body>
+
+  <div id="name"></div>
+
+  <div class="center container"> 
+      <ul class="list-inline"> 
+        <li>Julia Bennett </li> 
+        <li><a href="mailto:juliacbennett@gmail.com">juliacbennett@gmail.com</a></li> 
+        <li> <a href="https://github.com/juliabennett">my GitHub</a></li> 
+        <li> <a href="https://www.linkedin.com/in/juliaben">my LinkedIn</a></li> 
+      </ul>
+  </div>
+
+  <div class="container"> 
+    <div class = "text-lg heavy">About Me</div>
+    <div class="line">
+        <p> I'm currently a Senior Analytics Engineer at <a href='https://www.netflix.com/'>Netflix</a> in Los Gatos, CA.  I was recently a Fellow at <a href='http://www.insightdatascience.com/'>Insight Data Science</a> in the January 2016 session, after completing my Ph.D. in math at The University of Texas at Austin. I'm excited to be putting my quantitative skills to work on challenging problems in data science and data engineering.</p> 
+        <br>
+        <p>Please check out <a href="https://www.linkedin.com/in/juliaben">my LinkedIn</a> for more information about me.</p>
+    </div>
+  </div>
+
+  <div class="container">  
+    <div class = "text-lg heavy">Side Projects</div>
+    <div class="line">
+      <ul>
+        <li> 
+            <p> 
+              <span class ="heavy text-md"> The Great Divider </span> 
+              <!--<span class="link">
+                <i class="fa fa-external-link"></i> <a href="http://www.thegreatdivider.xyz/">thegreatdivider.xyz</a> 
+              </span>-->
+              <span class="link">
+                <i class="fa fa-github"></i> <a href="https://github.com/juliabennett/TheGreatDivider">TheGreatDivider</a> 
+              </span>
+            </p>
+            <p> I launched a web application that sifts through reddit conversations to identify common discussion topics within specific political communities. First, I implemented a version of TextRank using tf-idf features and cosine similarity to find keywords from reddit comments. Armed with the ability to extract keywords, I built a pipeline that performs hierarchical clustering to locate small clusters of keywords representing discussion topics, and I hand-coded scoring based on silhouette coefficients to evaluate the results. The whole project was completed in Python, with help from <a href='https://www.reddit.com/dev/api'>the reddit API</a>, <a href='http://www.postgresql.org/'>PostreSQL</a>, <a href='http://scikit-learn.org/'>scikit-learn</a>, and <a href="http://flask.pocoo.org/">Flask</a>. 
+             </p> 
+        </li>
+
+        <li> 
+            <p> 
+              <span class ="heavy text-md"> Who said it?</span> 
+              <!--<span class="link">
+                <i class="fa fa-external-link"></i> <a href="http://juliaben.net/t/who-said-it/">juliaben.net/t/who-said-it</a> 
+              </span>-->
+              <span class="link">
+                <i class="fa fa-github"></i> <a href="https://github.com/juliabennett/obama-or-bush">obama-or-bush</a> 
+              </span>
+            </p>
+            <p> In this project, I explored speeches given by Obama and Bush through webscraping, natural language processing, and machine learning in Python. Using a dataset of scraped transcripts, I trained a support vector classifier to identify whether a radio address was given by Obama or Bush with greater than 99% accuracy. I developed a front end that allows users to compete against this model and explore its decisions through interactive plots. Along the way, I experimented with Bayesian optimization for hyperparameter tuning.  The model was built with <a href='http://scikit-learn.org/'>scikit-learn</a> and <a href="http://yelp.github.io/MOE/">MOE</a> using tools from <a href="http://www.nltk.org/">NLTK</a>, the data was obtained with <a href="http://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a>, and the frontend was created with <a href="http://flask.pocoo.org/">Flask</a> and <a href="http://d3js.org/">D3.js</a>. </p> 
+        </li>
+
+        <li>
+          <p> 
+            <span class ="heavy text-md"> Coffee &amp; Demographics </span>
+            <!--<span class="link">
+              <i class="fa fa-external-link"></i> <a href="http://juliaben.net/t/coffee/">juliaben.net/t/coffee</a>
+            </span>-->
+            <span class="link">
+              <i class="fa fa-github"></i> <a href="https://github.com/juliabennett/coffee-and-demographics">coffee-and-demographics</a>  
+            </span>
+          </p>
+          <p>  I developed a <a href="http://shiny.rstudio.com/">Shiny</a> application that describes one approach to working with geospatial data and the U.S. Census. Guided by interactive maps, this carefully details the creation of a dataset that addresses how the spread and density of coffee shops in major U.S. cities is related to their demographic characteristics. All processing was completed in R, using <a href="http://cran.r-project.org/web/packages/sp/sp.pdf">sp</a> and three related packages for managing spatial objects.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container"> 
+    <div class = "text-lg heavy">Contact Me</div>
+    <div class="line">
+      <p>Please contact me with questions, feedback, ideas, suggestions, or just to introduce yourself. My email address is: <a href="mailto:juliacbennett@gmail.com">juliacbennett@gmail.com</a>.</p>
+    </div>
+  </div>
+
+  <div class="footer"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+  <script src="drawName.js"></script>
+  
+</body>
+</html> 
